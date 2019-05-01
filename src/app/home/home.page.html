@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar color="primario">
+    <ion-buttons color="primary" slot="end">
+      <ion-button color="light" fill="outline">
+        <span>{{ translate.currentLang | uppercase }}</span>
+      </ion-button>
+    </ion-buttons>
+    <ion-title text-center color="light" class="ion-padding-start ion-margin-start">
+      {{ 'HOME.TITLE' | translate | uppercase }}
+    </ion-title>
+  </ion-toolbar>
+  <!-- Buscador general de pokemon -->
+  <ion-toolbar color="primario">
+    <ion-searchbar placeholder=" {{ 'PLACEHOLDER.BUSCAR_POKEMON' | translate }}... " debounce="500" animated
+      (ionChange)="filtrarPokedex($event?.detail?.value)">
+    </ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-button (click)="scrollToBottom()" fill="outline">
+  {{ 'BOTON.SCROLL_BOTTOM' | translate }}
+</ion-button>
+<ion-content #content>
+  <!-- Lista de Pokemon -->
+  <ion-list>
+    <ion-item *ngFor="let pokemon of displayPokedex" (click)="verPokemon(pokemon.url)">
+      <ion-label>{{ pokemon.name | titlecase }}</ion-label>
+    </ion-item>
+  </ion-list>
+  <!-- Infinite scroll CHANGE: Comentado porque se carga la lista entera de inicio -->
+  <!-- <ion-infinite-scroll threshold="100px" (ionInfinite)="loadNextPokemonPage($event)">
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="{{ 'HOME.CARGANDO_MAS_POKEMON' | translate }}">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll> -->
+
+</ion-content>
+<ion-button (click)="scrollToTop()" fill="outline">
+  {{ 'BOTON.SCROLL_TOP' | translate }}
+</ion-button>

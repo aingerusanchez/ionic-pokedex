@@ -1,0 +1,43 @@
+.hide {
+    visibility: hidden;
+}
+
+ion-content {
+    
+    ion-card {
+
+        ion-card-title {
+            display: flex;
+            justify-content: space-between
+        }
+
+        .card-content-pokemon {
+            background-color: var(--ion-color-secundario);
+            display: flex;
+            justify-content: center;
+            border-radius: 10%;
+            // max-width: 100%;
+            height: 300px;
+
+            .img-pokemon {
+                max-height: 90%;
+                max-width: 90%;
+            }
+
+            .img-missingno {
+                margin: 5%;
+                max-height: 90%;
+                max-width: 50%;
+            }
+        }
+
+        .stat-pokemon {
+            display: flex;
+            justify-content: space-between;
+
+            .stat-principal {
+                color: red;
+            }
+        }
+    }
+}

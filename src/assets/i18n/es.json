@@ -1,0 +1,43 @@
+{
+    "PLACEHOLDER": {
+        "BUSCAR_POKEMON": "Buscar pokemon"
+    },
+    "BOTON": {
+        "SCROLL_TOP": "Ir al inicio",
+        "SCROLL_BOTTOM": "Ir al final"
+    },
+    "HOME": {
+        "TITLE": "Pokedex",
+        "ESCANEANDO_POKEMON": "Escaneando Pokemon",
+        "CARGANDO_MAS_POKEMON": "Escaneando nuevos Pokemon",
+        "CARGANDO_POKEMON": "¡Lanzando pokeball!"
+    },
+    "POKEMON-DETALLE": {
+        "ESTADISTICAS": "Estadísticas"
+    },
+    "normal": "Normal",
+    "fighting": "Lucha",
+    "flying": "Volador",
+    "ground": "Tierra",
+    "rock": "Roca",
+    "bug": "Bicho",
+    "ghost": "Fantasma",
+    "steel": "Acero",
+    "fire": "Fuego",
+    "water": "Agua",
+    "grass": "Planta",
+    "electric": "Eléctrico",
+    "phychic": "Psíquico",
+    "ice": "Hielo",
+    "dark": "Siniestro",
+    "fairy": "Hada",
+    "poison": "Veneno",
+    "dragon": "Dragón",
+    "speed": "Velocidad",
+    "special-defense": "Def. Especial",
+    "special-attack": "At. Especial",
+    "defense": "Defensa",
+    "attack": "Ataque",
+    "hp": "Vida",
+    "CARGANDO": "Cargando"
+}

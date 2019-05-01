@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar color="primario">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home" color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="light">{{ pokemon?.name | uppercase }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+      <ion-card-title text-center>
+        <ion-icon [class.hide]="pokemonID <= 1" name="arrow-dropleft" (click)="changePokemon('prev')"></ion-icon>
+        {{ pokemonCOD }} - {{ pokemon?.name | titlecase }}
+        <ion-icon [class.hide]="pokemonID >= pokedex.getTotalPokemon()" name="arrow-dropright"
+          (click)="changePokemon('next')">
+        </ion-icon>
+      </ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <!-- Imagen -->
+      <div class="card-content-pokemon">
+        <img src="{{ pokemonIMG }}" alt="&nbsp;Imagen de {{ pokemon?.name | titlecase }}" class="img-pokemon"
+          [ngClass]="{'img-missingno': pokemonIMG.includes('assets') }"
+          title="Imagen de {{ pokemon?.name | titlecase }}">
+      </div>
+      <!-- Tipos -->
+      <ion-chip *ngFor=" let tipo of pokemon?.types " [color]="tipo?.color" outline class="ion-margin-top">
+        <ion-icon [name]="tipo?.icon" [color]="tipo?.color"></ion-icon>
+        <ion-label [color]="tipo?.color" outline>{{ tipo?.type?.name | translate | lowercase }}</ion-label>
+      </ion-chip>
+      <!-- Estadisticas -->
+      <div class="stats-container" class="ion-margin-top">
+        <h1 color="primario" text-center>{{ 'POKEMON-DETALLE.ESTADISTICAS' | translate | uppercase }}</h1>
+        <ion-list>
+          <ion-item *ngFor=" let stat of pokemon?.stats ">
+            <ion-label [color]="stat.effort ? 'danger' : 'oscuro'" class="stat-pokemon">
+              <span>{{ stat?.stat?.name | translate }}</span>
+              <span>{{ stat?.base_stat }}</span>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

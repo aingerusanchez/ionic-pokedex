@@ -1,0 +1,42 @@
+{
+    "PLACEHOLDER": {
+        "BUSCAR_POKEMON": "Search Pokemon"
+    },
+    "BOTON": {
+        "SCROLL_TOP": "Go to top",
+        "SCROLL_BOTTOM": "Go to bottom"
+    },
+    "HOME": {
+        "TITLE": "Pokedex",
+        "ESCANEANDO_POKEMON": "Scanning Pokemon",
+        "CARGANDO_MAS_POKEMON": "Scanning new Pokemon",
+        "CARGANDO_POKEMON": "¡Throwing pokeball!"
+    },
+    "POKEMON-DETALLE": {
+        "ESTADISTICAS": "Stats"
+    },
+    "normal": "Normal",
+    "fighting": "Fighting",
+    "flying": "Flying",
+    "ground": "Ground",
+    "rock": "Rock",
+    "bug": "Bug",
+    "ghost": "Ghost",
+    "steel": "Steel",
+    "fire": "Fire",
+    "water": "Water",
+    "grass": "Grass",
+    "electric": "Electric",
+    "phychic": "Phychic",
+    "ice": "Ice",
+    "dark": "Dark",
+    "fairy": "Fairy",
+    "poison": "Poison",
+    "dragon": "Dragon",
+    "speed": "Speen",
+    "special-defense": "Special Def.",
+    "special-attack": "Special Atk.",
+    "defense": "Defense",
+    "attack": "Attack",
+    "hp": "Health"
+}
