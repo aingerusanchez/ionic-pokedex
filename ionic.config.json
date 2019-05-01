@@ -1,0 +1,7 @@
+{
+  "name": "pokedex",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
