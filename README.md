@@ -2,24 +2,24 @@
 
 App híbrida de Pokedex muestra un listado de pokemon utilizando la API https://pokeapi.co/ .
 
-![ Imagen de la lista ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokedex.png)
-![ Imagen de la lista filtrada ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokedex-filtrada.png)
-
 Detalle de Pokémon seleccionado
-
-![ Detalle del Pokémon ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokemon-detalle.png)
-![ Estadísticas del Pokémon ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokemon-stats.png)
 
 # Funcionalidades
 
 ### Versión 1.0.0
 
 * Se puede buscar por nombre en la barra superior de la lista.
+* Se puede navegar al inicio/fin de la lista mediante botones.
+
+![ Imagen de la lista ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokedex.png)
+![ Imagen de la lista filtrada ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokedex-filtrada.png)
 * Existen traducciones para varios idiomas que dependen del idioma del dispositivo: 
     * Español (ES)
     * Inglés (EN)
-* Se puede navegar al inicio/fin de la lista mediante botones.
-* Se puede navegar entre Pokémons con las flechas a los lados del nombre del Pokemon. 
+* Se puede navegar entre Pokémons con las flechas a los lados del nombre del Pokemon.
+
+![ Detalle del Pokémon ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokemon-detalle.png)
+![ Estadísticas del Pokémon ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokemon-stats.png)
 
 ## Proximos pasos...
 
