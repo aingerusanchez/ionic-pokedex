@@ -2,8 +2,6 @@
 
 App híbrida de Pokedex muestra un listado de pokemon utilizando la API https://pokeapi.co/ .
 
-Detalle de Pokémon seleccionado
-
 # Funcionalidades
 
 ### Versión 1.0.0
