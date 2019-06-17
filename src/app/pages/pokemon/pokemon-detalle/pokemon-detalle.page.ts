@@ -1,6 +1,6 @@
-import { TranslateService } from '@ngx-translate/core';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 import { Pokemon } from 'src/app/models/pokemon.model';
 import { environment } from 'src/environments/environment';
 

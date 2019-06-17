@@ -16,7 +16,6 @@ export enum ScrollPositionEnum {
   middle,
   end,
 }
-
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',

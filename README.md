@@ -4,6 +4,10 @@ App híbrida de Pokedex muestra un listado de pokemon utilizando la API https://
 
 # Funcionalidades
 
+### Versión 1.1.0
+
+* Menú lateral (sidenav/drawer)
+
 ### Versión 1.0.0
 
 * Se puede buscar por nombre en la barra superior de la lista.

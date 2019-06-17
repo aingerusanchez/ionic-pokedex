@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
+// SERVICES
 import { UtilsService } from './utils.service';
 
 @NgModule({
@@ -10,7 +11,7 @@ import { UtilsService } from './utils.service';
   declarations: [
     UtilsService,
   ],
-  providers: [UtilsService],
+  providers: [],
   exports: [
     UtilsService,
   ],
