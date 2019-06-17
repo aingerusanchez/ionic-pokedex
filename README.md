@@ -1,4 +1,4 @@
-# Pokedex v1.0
+# Pokedex v1.1.0
 
 App híbrida de Pokedex muestra un listado de pokemon utilizando la API https://pokeapi.co/ .
 
@@ -7,6 +7,7 @@ App híbrida de Pokedex muestra un listado de pokemon utilizando la API https://
 ### Versión 1.1.0
 
 * Menú lateral (sidenav/drawer)
+* Config.xml added
 
 ### Versión 1.0.0
 
