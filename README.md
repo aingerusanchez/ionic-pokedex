@@ -3,9 +3,9 @@
 Tu propia Pokedex en tu smartphone!
 App híbrida desarrollada en Ionic v4 y utilizando la API https://pokeapi.co/ 
 
-![ Imagen de la lista ](https://github.com/Aingeru72/ionic-pokedex/blob/master/imagenes/pokedex.png)
-![ Detalle del Pokémon ](https://github.com/Aingeru72/ionic-pokedex/blob/master/imagenes/pokemon-detalle.png)
-![ Estadísticas del Pokémon ](https://github.com/Aingeru72/ionic-pokedex/blob/master/imagenes/pokemon-stats.png)
+![ Imagen de la lista ](https://github.com/Aingeru72/ionic-pokedex/blob/master/screenshots/pokedex.png)
+![ Detalle del Pokémon ](https://github.com/Aingeru72/ionic-pokedex/blob/master/screenshots/pokemon-detalle.png)
+![ Estadísticas del Pokémon ](https://github.com/Aingeru72/ionic-pokedex/blob/master/screenshots/pokemon-stats.png)
 
 ## Índice
 
