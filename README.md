@@ -7,7 +7,13 @@ App híbrida desarrollada en Ionic v4 y utilizando la API https://pokeapi.co/
 ![ Detalle del Pokémon ](https://github.com/Aingeru72/ionic-pokedex/blob/master/imagenes/pokemon-detalle.png)
 ![ Estadísticas del Pokémon ](https://github.com/Aingeru72/ionic-pokedex/blob/master/imagenes/pokemon-stats.png)
 
-# Instalar
+## Índice
+
+- [Capturar](#capturar)
+- [Evoluciones](#evoluciones)
+  - [Proximos movimientos](#proximos-movimientos)
+
+# Capturar
 
 1. Clonar el respositorio y abrirlo en tu IDE favorito (recomiendo VS Code).
 2. Ejecutar `npm install` en el directorio raiz para crear la carpeta `node_modules` e instalar las dependecias.
@@ -20,7 +26,7 @@ App híbrida desarrollada en Ionic v4 y utilizando la API https://pokeapi.co/
 
    4.2 [Instalar en dispositivo iOS](https://ionicframework.com/docs/building/ios)  
    
-# Historial
+# Evoluciones
 
 ## Versión 0.1.1
 
@@ -43,7 +49,7 @@ App híbrida desarrollada en Ionic v4 y utilizando la API https://pokeapi.co/
     * Inglés (EN)
 * **Pokemon:** Se puede navegar entre Pokémons con las flechas laterales del nombre del Pokemon.
 
-## Proximos pasos...
+## Proximos movimientos...
 
 * **Pokemon:** Navegar entre Pokémon deslizando con gestos.
 * **Idioma:** Cambiar de idioma desde el menú superior.
