@@ -1,33 +1,11 @@
-# Pokedex v1.1.0
+# Pokedex
 
-App híbrida de Pokedex muestra un listado de pokemon utilizando la API https://pokeapi.co/ .
+Tu propia Pokedex en tu smartphone!
+App híbrida desarrollada en Ionic v4 y utilizando la API https://pokeapi.co/ 
 
-# Funcionalidades
-
-### Versión 1.1.0
-
-* Menú lateral (sidenav/drawer)
-* Config.xml added
-
-### Versión 1.0.0
-
-* Se puede buscar por nombre en la barra superior de la lista.
-* Se puede navegar al inicio/fin de la lista mediante botones.
-
-![ Imagen de la lista ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokedex.png)
-![ Imagen de la lista filtrada ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokedex-filtrada.png)
-* Existen traducciones para varios idiomas que dependen del idioma del dispositivo: 
-    * Español (ES)
-    * Inglés (EN)
-* Se puede navegar entre Pokémons con las flechas a los lados del nombre del Pokemon.
-
-![ Detalle del Pokémon ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokemon-detalle.png)
-![ Estadísticas del Pokémon ](https://github.com/BaturaMobile/candidates_Frontend_1903437/blob/master/imagenes/pokemon-stats.png)
-
-## Proximos pasos...
-
-* Navegar entre Pokémon deslizando con gestos.
-* Cambiar de idioma desde el menú superior.
+![ Imagen de la lista ](https://github.com/Aingeru72/ionic-pokedex/blob/master/imagenes/pokedex.png)
+![ Detalle del Pokémon ](https://github.com/Aingeru72/ionic-pokedex/blob/master/imagenes/pokemon-detalle.png)
+![ Estadísticas del Pokémon ](https://github.com/Aingeru72/ionic-pokedex/blob/master/imagenes/pokemon-stats.png)
 
 # Instalar
 
@@ -41,3 +19,31 @@ App híbrida de Pokedex muestra un listado de pokemon utilizando la API https://
    4.1 [Instalar en dispositivo Android](https://ionicframework.com/docs/building/android)
 
    4.2 [Instalar en dispositivo iOS](https://ionicframework.com/docs/building/ios)  
+   
+# Historial
+
+## Versión 0.1.1
+
+### Funcionalidades
+
+* **Menú:** Menú lateral (sidenav/drawer)
+
+### Arreglos
+
+* **Build:** config.xml restaurado
+
+## Versión 0.1.0
+
+### Funcionalidades
+
+* **Pokedex:** Se puede buscar por nombre en la barra superior de la lista.
+* **Pokedex:** Se puede navegar al inicio/fin de la lista mediante botones.
+* **Idioma:** Existen traducciones para varios idiomas que dependen del idioma del dispositivo: 
+    * Español (ES)
+    * Inglés (EN)
+* **Pokemon:** Se puede navegar entre Pokémons con las flechas laterales del nombre del Pokemon.
+
+## Proximos pasos...
+
+* **Pokemon:** Navegar entre Pokémon deslizando con gestos.
+* **Idioma:** Cambiar de idioma desde el menú superior.
