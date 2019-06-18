@@ -12,6 +12,7 @@ App híbrida desarrollada en Ionic v4 y utilizando la API https://pokeapi.co/
 - [Capturar](#obtener-pokedex)
 - [Evoluciones](#evoluciones)
   - [Proximos movimientos](#futuras-habilidades)
+- [Licencia de entrenador](#license)
 
 # Obtener Pokedex
 
@@ -33,7 +34,7 @@ App híbrida desarrollada en Ionic v4 y utilizando la API https://pokeapi.co/
    
 # Evoluciones
 
-## Versión 0.1.1
+## Versión 0.0.2
 
 ### MT
 
@@ -43,7 +44,7 @@ App híbrida desarrollada en Ionic v4 y utilizando la API https://pokeapi.co/
 
 * **Build:** config.xml restaurado
 
-## Versión 0.1.0
+## Versión 0.0.1
 
 ### MT
 
@@ -58,3 +59,7 @@ App híbrida desarrollada en Ionic v4 y utilizando la API https://pokeapi.co/
 
 * **Pokemon:** Navegar entre Pokémon deslizando con gestos.
 * **Idioma:** Cambiar de idioma desde el menú superior.
+
+# LICENSE
+
+[MIT License](https://github.com/Aingeru72/ionic-pokedex/blob/master/LICENSE) 
