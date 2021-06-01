@@ -1,3 +1,10 @@
+interface PokemonStats { 
+    base_stats: number;
+    effort: number;
+    stats: { name: string, url: string };
+    icon?: string
+};
+
 export class Pokemon {
     /** ID del pokemon en la Pokedex */
     public id: number;
@@ -10,5 +17,5 @@ export class Pokemon {
     /** Array de tipos del Pokemon */
     public types: { slot: number, type: { name: string, url: string }, icon?: string, color?: string }[];
     /** Array de estadísticas */
-    public stats: { base_stats: number, effort: number, stats: { name: string, url: string }, icon?: string };
+    public stats: PokemonStats;
 }
